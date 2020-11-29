@@ -6,7 +6,7 @@ import { Keyboard } from "../Keyboard"
 import "./style.css"
 
 export const KeyboardWithInstrument: FunctionComponent = () => {
-  const AudioContent = useAudioContext()!
+  const AudioContext = useAudioContext()!
   const { loading, play, stop, load } = useSoundfont({ AudioContext })
 
   useMount(load)
