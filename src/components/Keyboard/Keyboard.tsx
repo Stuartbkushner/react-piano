@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react'
 import { selectKey } from "../../domain/keyboard"
 import { notes } from "../../domain/note"
-import { Key } from "../Key/Key"
+import { Key } from '../Key/Key'
 import "./style.css"
 
 export const Keyboard: FunctionComponent = () => {
