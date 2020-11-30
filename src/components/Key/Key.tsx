@@ -1,8 +1,8 @@
 import React, { FunctionComponent, ReactEventHandler } from "react"
 import clsx from "clsx"
 import { NoteType } from "../../domain/note"
-import "./style.css"
 import { usePressObserver } from "../PressObserver"
+import "./style.css"
 
 interface KeyProps {
   type: NoteType
@@ -20,7 +20,6 @@ export const Key: FunctionComponent<KeyProps> = ({
   onUp,
   ...rest
 }) => {
-
   const pressed = usePressObserver({
     watchKey: label,
     onStartPress: onDown,

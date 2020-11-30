@@ -1,1 +1,1 @@
-export * from "./SoundfontProviderClass"
+export * from "./useSoundfont"
