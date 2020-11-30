@@ -3,7 +3,7 @@
 }
 
 .app-content {
-  --offset: calc(var(--footer-height) + var(--logo-height));
+  --offset: calc(var(--footer-height) + var(--header-height));
   min-height: calc(100vh - var(--offset));
 
   display: flex;
