@@ -7,7 +7,7 @@ export const Footer: FunctionComponent = () => {
   return (
     <footer className="footer">
       <br/>
-      {currentYear}
+Ch      {currentYear} Stuart Kushner
     </footer>
   )
 }
